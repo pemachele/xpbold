@@ -2233,3 +2233,24 @@ a:focus {
         text-align: center;
     }
 }
+/* Style for the floating button */
+#scrollUpBtn {
+    position: fixed;  /* Ensures the button floats */
+    bottom: 20px;     /* Position it 20px from the bottom */
+    right: 20px;      /* Position it 20px from the right */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;     /* Initially hidden */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;     /* Ensures it's on top of other content */
+  }
+  
+  #scrollUpBtn:hover {
+    background-color: #0056b3;
+  }
+  
